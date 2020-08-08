@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Dibujarte CSS
+✨ ¡Llegó el momento de dibujar con CSS! ✨
 
-## Available Scripts
+## 👀 ¿De qué se trata?
+Vamos a adentrarnos en el uso de las hojas de estilo. ¿Preparadas/os para aprender y estimular su imaginación?
+Cualquiera puede participar, la idea es compartir el proceso.
 
-In the project directory, you can run:
+## 🤔 ¿Cómo puedo participar?
+No tienes que ser un experto en CSS, la idea es aprender.
 
-### `yarn start`
+🟣 Para empezar vamos a documentarnos sobre las propiedades que nos serán de más utilidad. Les recomiendo buscar:
+* background
+* clip-path
+* box-shadow
+* border
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🟣 También les dejo unos recursos para meternos de lleno en el tema:
+* [Dibujando con CSS Gradient](https://css-tricks.com/drawing-images-with-css-gradients/)
+* [Sigle div drawings](https://hacks.mozilla.org/2014/09/single-div-drawings-with-css/)
+* [Guía básica para losgrar imágenes con CSS](https://medium.com/coding-artist/a-beginners-guide-to-pure-css-images-ef9a5d069dd2)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+🟣Cuando ya hayamos leído, vamos a elegir un objeto de la vida cotidiana que nos represente y la dibujaremos con CSS. La técnica es a gusto de cada uno. Puede ser realista, cartoon, etc.
 
-### `yarn test`
+✨**OPCIONAL**: Agregar interacción con un poco de JS.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎨 Quiero que mi dibujo esté en la galería
+¡Seguro! Tienes dos maneras de llegarnos para incluír tu arte:
+1. Abre un issue en este repositorio con el link (codepen) a tu arte y tus datos (Nombre, Link a tu portafolio / Red Social).
+2. Haz un tweet con el hashtag #DibujarteCSS y etiqueta a @musartedev
 
-### `yarn build`
+## ➕ Contribuye
+Si quieres contrubuir y mejorar la galería, solo haz fork al repositorio y abre un PR describiendo tus cambios :D
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 📖 License
+The (MIT) License
