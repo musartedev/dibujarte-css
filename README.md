@@ -19,7 +19,7 @@ No tienes que ser un experto en CSS, la idea es aprender.
 * [Sigle div drawings](https://hacks.mozilla.org/2014/09/single-div-drawings-with-css/)
 * [Guía básica para losgrar imágenes con CSS](https://medium.com/coding-artist/a-beginners-guide-to-pure-css-images-ef9a5d069dd2)
 
-🟣Cuando ya hayamos leído, vamos a elegir un objeto de la vida cotidiana que nos represente y la dibujaremos con CSS. La técnica es a gusto de cada uno. Puede ser realista, cartoon, etc.
+🟣 Cuando ya hayamos leído, vamos a elegir un objeto de la vida cotidiana que nos represente y la dibujaremos con CSS. La técnica es a gusto de cada uno. Puede ser realista, cartoon, etc.
 
 ✨**OPCIONAL**: Agregar interacción con un poco de JS.
 

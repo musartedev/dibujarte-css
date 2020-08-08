@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
+:root {
+  /* Color palette */
+  --primary: #9b6a6c;
+  --secondary: #e2b4bd;
+  --accent: #424b54;
+  --helper: #93a8ac;
+}
+
 body {
   margin: 0;
+}
+
+.App {
+  margin: 2em auto;
+  max-width: 100vh;
+  overflow: scroll;
+  max-width: 1024px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  color: var(--helper);
+}
+
+.header img {
+  width: 80px;
 }
