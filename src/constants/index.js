@@ -95,4 +95,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/shelvaldes/pen/vYGEeZQ',
     tags: ['ilustración'],
   },
+  {
+    title: '🚀 Steven Universe',
+    author: {
+      name: 'Alex Camacho',
+      twitter: 'https://twitter.com/alexcamachogz',
+      github: 'https://github.com/alexcamachogz',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-10+at+6.16.03+PM.png',
+    linkToOriginal: 'https://codepen.io/alexcamachogz/pen/PoNYRWK',
+    tags: ['ilustración', 'cartoon'],
+  },
 ];
