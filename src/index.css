@@ -29,6 +29,7 @@ a:hover {
 
 .App {
   margin: 2em auto;
+  width: 100%;
   max-width: 100vh;
   overflow: scroll;
   max-width: 1024px;
