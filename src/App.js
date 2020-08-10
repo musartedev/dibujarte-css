@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import './assets/fonts/style.css';
 import { arts } from './constants';
 
