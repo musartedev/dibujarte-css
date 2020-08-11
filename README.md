@@ -1,6 +1,8 @@
 # Dibujarte CSS
 ✨ ¡Llegó el momento de dibujar con CSS! ✨
 
+![DEMO GIF](http://g.recordit.co/wHGcE23mze.gif)
+
 ## 👀 ¿De qué se trata?
 Vamos a adentrarnos en el uso de las hojas de estilo. ¿Preparadas/os para aprender y estimular su imaginación?
 Cualquiera puede participar, la idea es compartir el proceso.
