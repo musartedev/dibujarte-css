@@ -9,7 +9,15 @@ const Header = () => {
         <h1>#DibujarteCSS</h1>
       </div>
       <div className='header__description'>
-        <p>✨ ¡Llegó el momento de dibujar con CSS! ✨</p>
+        <p>
+          <span role='img' aria-label='sparkles'>
+            ✨
+          </span>{' '}
+          ¡Llegó el momento de dibujar con CSS!{' '}
+          <span role='img' aria-label='sparkles'>
+            ✨
+          </span>
+        </p>
         <a
           href='https://github.com/musartedev/dibujarte-css'
           target='_blank'

@@ -12,12 +12,23 @@ function App() {
       <main>
         <div className='GalleryContainer'>
           {arts.map((art) => {
-            return <ArtCard {...art} />;
+            return <ArtCard {...art} key={art.title} />;
           })}
         </div>
       </main>
       <div className='Footer'>
-        Hecho con 💜 por <a href=''>Mariangélica Useche</a>
+        Hecho con{' '}
+        <span role='img' aria-label='purple heart'>
+          💜
+        </span>{' '}
+        por{' '}
+        <a
+          href='https://github.com/musartedev'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Mariangélica Useche
+        </a>
       </div>
     </div>
   );

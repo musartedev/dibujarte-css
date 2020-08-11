@@ -42,7 +42,9 @@ const ArtCard = ({ imgUrl, linkToOriginal, title, author, tags }) => {
           </div>
           <div className='Art__tags'>
             {tags.map((tag) => (
-              <span className='Art__tag'>{tag}</span>
+              <span className='Art__tag' key={`${title}-${tag}`}>
+                {tag}
+              </span>
             ))}
           </div>
         </div>
