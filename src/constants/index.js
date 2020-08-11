@@ -31,7 +31,7 @@ export const arts = [
       github: 'https://github.com/diego-osunag',
     },
     imgUrl:
-      'http://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-08+at+6.43.12+PM.png',
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-08+at+6.43.12+PM.png',
     linkToOriginal: 'https://codepen.io/diego_osunag/pen/dyMyXPy',
     tags: ['ilustración', 'cartoon'],
   },
@@ -105,6 +105,17 @@ export const arts = [
     imgUrl:
       'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-10+at+6.16.03+PM.png',
     linkToOriginal: 'https://codepen.io/alexcamachogz/pen/PoNYRWK',
+    tags: ['ilustración', 'cartoon'],
+  },
+  {
+    title: '👶🏼 Baby Phineas And Ferb',
+    author: {
+      name: 'Tomás Salinas',
+      github: 'https://github.com/salinatomas',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-11+at+2.13.08+PM.png',
+    linkToOriginal: 'https://github.com/salinatomas/Phineas-and-Ferb',
     tags: ['ilustración', 'cartoon'],
   },
 ];
