@@ -4,6 +4,7 @@ import { arts } from './constants';
 
 import ArtCard from './components/ArtCard';
 import Header from './components/Header';
+import DarkMode from './components/DarkMode';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           })}
         </div>
       </main>
+
+      <DarkMode />
+      
       <div className='Footer'>
         Hecho con{' '}
         <span role='img' aria-label='purple heart'>

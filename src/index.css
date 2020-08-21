@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  background-color: (--white);
+  background-color: var(--white);
   font-family: 'Comfortaa', cursive;
 }
 
@@ -41,6 +41,10 @@ a:hover {
 
 .App::-webkit-scrollbar {
   display: none;
+}
+
+.header {
+  color: var(--accent);
 }
 
 .header__logo {
@@ -162,7 +166,35 @@ a:hover {
 .Footer {
   padding-top: 80px;
   text-align: center;
+  color: var(--accent);
 }
+
+.Footer a {
+  color: var(--primary);
+}
+
+
+/*Dark Mode*/
+.dark__mode {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.dark__mode-icon {
+  width: 50px;
+}
+
+.dark-mode-colors {
+  --primary: #9b6a6c;
+  --dark-brown: #332a06;
+  --secondary: #e2b4bd;
+  --accent: #fff;
+  --helper: #fff;
+  --white: #232222;
+}
+
 
 @media (max-width: 500px) {
   .header__logo {
