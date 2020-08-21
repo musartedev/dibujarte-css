@@ -33,5 +33,9 @@ No tienes que ser un experto en CSS, la idea es aprender.
 ## ➕ Contribuye
 Si quieres contrubuir y mejorar la galería, solo haz fork al repositorio y abre un PR describiendo tus cambios :D
 
+### 💜 Contribuidores oficiales
+* [Mariangélica Useche](https://github.com/musartedev)
+* [Andrés Parra](https://github.com/AndresParraGO)
+
 ## 📖 License
 The (MIT) License
