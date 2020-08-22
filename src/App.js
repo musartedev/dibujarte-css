@@ -17,9 +17,7 @@ function App() {
           })}
         </div>
       </main>
-
       <DarkMode />
-      
       <div className='Footer'>
         Hecho con{' '}
         <span role='img' aria-label='purple heart'>

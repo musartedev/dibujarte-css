@@ -23,7 +23,7 @@ function DarkMode() {
 			setDarkMode(!darkMode);
 			changeMode();
 		}} className="dark__mode">
-			<img className="dark__mode-icon" src={img} />
+			<img className="dark__mode-icon" src={img} alt="dark mode icon" />
 		</div>
 	)
 }
