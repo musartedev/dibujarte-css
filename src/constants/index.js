@@ -118,4 +118,129 @@ export const arts = [
     linkToOriginal: 'https://github.com/salinatomas/Phineas-and-Ferb',
     tags: ['ilustración', 'cartoon'],
   },
+  {
+    title: '☁️  Fly Mario Fly',
+    author: {
+      name: 'Emmanuel García',
+      twitter: 'https://twitter.com/EmmaIsWorking',
+      github: 'https://github.com/EmmaIsWorking',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-21+at+7.29.40+PM.png',
+    linkToOriginal: 'https://codepen.io/emmaisworking/pen/ExKymOx?editors=1100',
+    tags: ['pixel-art', 'animado'],
+  },
+  {
+    title: '⚡️Pikachú',
+    author: {
+      name: 'Andrés Parra',
+      twitter: 'https://twitter.com/AndresParraGar4',
+      github: 'https://github.com/AndresParraGO',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-20+at+10.06.43+PM.png',
+    linkToOriginal: 'https://codepen.io/andresparrago/pen/BaKLNPw',
+    tags: ['ilustración', 'animado'],
+  },
+  {
+    title: '⺾  Emblema Sheikah',
+    author: {
+      name: 'Hugo',
+      twitter: 'https://twitter.com/hugok2k',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-21+at+7.30.11+PM.png',
+    linkToOriginal: 'https://codepen.io/hugok2k/pen/ZEQvKLB',
+    tags: ['ilustración'],
+  },
+  {
+    title: '🔥 Djkde\'s Kitchen',
+    author: {
+      name: 'Sergio Estrella',
+      twitter: 'https://twitter.com/djkde',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-21+at+7.27.09+PM.png',
+    linkToOriginal: 'https://codepen.io/Djkde/pen/bGppMaB',
+    tags: ['ilustración', 'animado'],
+  },
+  {
+    title: '👻 Spirited Away',
+    author: {
+      name: 'Verónica Alcaraz',
+      twitter: 'https://twitter.com/Lukaina_co',
+      github: 'https://github.com/Lukaina',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-20+at+10.08.03+PM.png',
+    linkToOriginal: 'https://codepen.io/veroalcaraz/pen/yLOayOJ',
+    tags: ['ilustración', 'animado'],
+  },
+  {
+    title: '🎇 Rick Sanchez Portal',
+    author: {
+      name: 'Daniel Reyes',
+      github: 'https://github.com/daniektj',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-21+at+6.49.40+PM.png',
+    linkToOriginal: 'https://codepen.io/daniektj/pen/eYZdwBw',
+    tags: ['ilustración', 'animado'],
+  },
+  {
+    title: '👻 BOO!',
+    author: {
+      name: 'David Martinez',
+      github: 'https://github.com/dv-mata',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-21+at+6.50.37+PM.png',
+    linkToOriginal: 'https://codepen.io/dv-mata/pen/oNxLBKy',
+    tags: ['pixel-art', 'animado'],
+  },
+  {
+    title: '👨🏽‍🚀 Astronauta Perdido',
+    author: {
+      name: 'Fjavier De Freitas',
+      github: 'https://github.com/Scorcherfjk',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-21+at+6.51.16+PM.png',
+    linkToOriginal: 'https://codepen.io/Scorcherfjk/pen/ZEWWodM',
+    tags: ['ilustración', 'animado'],
+  },
+  {
+    title: '🐒 Monkey D. Luffy',
+    author: {
+      name: 'Andés22',
+      github: 'https://github.com/andresp2218',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-21+at+6.51.52+PM.png',
+    linkToOriginal: 'https://codepen.io/andresp2218/pen/mdPOzPN',
+    tags: ['ilustración', 'animado'],
+  },
+  {
+    title: '💨 Ventilador',
+    author: {
+      name: 'Libia Pérez',
+      github: 'https://github.com/alexadictiva',
+      twitter: 'https://twitter.com/alexAdictiva',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-21+at+7.22.06+PM.png',
+    linkToOriginal: 'https://codepen.io/alexadictiva/pen/poyEzpK?editors=1100',
+    tags: ['ilustración', 'animado'],
+  },
+  {
+    title: '🙍🏽‍♀️ Autorretrato',
+    author: {
+      name: 'Isa56k1',
+      twitter: 'https://twitter.com/isa56k1',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-21+at+7.31.05+PM.png',
+    linkToOriginal: 'https://codepen.io/isa-pulsatilla/pen/poybeMa',
+    tags: ['ilustración'],
+  },
 ];
