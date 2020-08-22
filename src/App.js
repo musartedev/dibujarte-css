@@ -1,37 +1,19 @@
-import React from 'react';
-import './assets/fonts/style.css';
-import { arts } from './constants';
+import React from "react";
+import "./assets/fonts/style.css";
+import { arts } from "./constants";
 
-import ArtCard from './components/ArtCard';
-import Header from './components/Header';
-import DarkMode from './components/DarkMode';
+import Header from "./components/Header";
+import DarkMode from "./components/DarkMode";
+import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Header />
-      <main>
-        <div className='GalleryContainer'>
-          {arts.map((art) => {
-            return <ArtCard {...art} key={art.title} />;
-          })}
-        </div>
-      </main>
+      <Gallery arts={arts} />
+      <Footer />
       <DarkMode />
-      <div className='Footer'>
-        Hecho con{' '}
-        <span role='img' aria-label='purple heart'>
-          💜
-        </span>{' '}
-        por{' '}
-        <a
-          href='https://github.com/musartedev'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Mariangélica Useche
-        </a>
-      </div>
     </div>
   );
 }
