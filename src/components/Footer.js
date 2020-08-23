@@ -3,18 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="Footer">
-      Hecho con{" "}
+      Hecho desde LATAM con {" "}
       <span role="img" aria-label="purple heart">
         💜
-      </span>{" "}
-      por{" "}
-      <a
-        href="https://github.com/musartedev"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Mariangélica Useche
-      </a>
+      </span>
     </div>
   );
 };
