@@ -1,7 +1,12 @@
 # Dibujarte CSS
 ✨ ¡Llegó el momento de dibujar con CSS! ✨
 
+[🟣   Live](https://dibujartecss.musarte.dev/)
+<details>
+<summary>👁 Preview</summary>
+  
 ![DEMO GIF](http://g.recordit.co/wHGcE23mze.gif)
+</details>
 
 ## 👀 ¿De qué se trata?
 Vamos a adentrarnos en el uso de las hojas de estilo. ¿Preparadas/os para aprender y estimular su imaginación?
@@ -36,6 +41,7 @@ Si quieres contrubuir y mejorar la galería, solo haz fork al repositorio y abre
 ### 💜 Contribuidores oficiales
 * [Mariangélica Useche](https://github.com/musartedev)
 * [Andrés Parra](https://github.com/AndresParraGO)
+* [Aldo RL](https://github.com/aldo-rl)
 
 ## 📖 License
 The (MIT) License
