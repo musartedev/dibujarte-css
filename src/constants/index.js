@@ -254,4 +254,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/silfridob12/pen/bGEQPMY',
     tags: ['ilustración', 'animado'],
   },
+  {
+    title: '🦁 León en Circo',
+    author: {
+      name: 'Camilo Aguilera',
+      github: 'https://github.com/camilo9497',
+      twitter: 'https://twitter.com/camilofrontend',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-23+at+2.44.28+PM.png',
+    linkToOriginal: 'https://codepen.io/camilo-aguilera/pen/BaKpNzy',
+    tags: ['ilustración', 'animado'],
+  },
 ];
