@@ -31,7 +31,6 @@ a:hover {
   margin: 2em auto;
   width: 100%;
   max-width: 100vh;
-  overflow: scroll;
   max-width: 1024px;
 }
 
@@ -178,6 +177,8 @@ a:hover {
   position: fixed;
   bottom: 10px;
   right: 10px;
+  border-radius: 50%;
+  overflow: hidden;
   cursor: pointer;
 }
 
