@@ -243,4 +243,15 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/isa-pulsatilla/pen/poybeMa',
     tags: ['ilustración'],
   },
+  {
+    title: '🦜 Duolingo',
+    author: {
+      name: 'Silfrido Benítez',
+      twitter: 'https://twitter.com/chiiB12',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-22+at+9.33.23+PM.png',
+    linkToOriginal: 'https://codepen.io/silfridob12/pen/bGEQPMY',
+    tags: ['ilustración', 'animado'],
+  },
 ];
