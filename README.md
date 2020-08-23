@@ -32,11 +32,11 @@ No tienes que ser un experto en CSS, la idea es aprender.
 
 ## 🎨 Quiero que mi dibujo esté en la galería
 ¡Seguro! Tienes dos maneras de llegarnos para incluír tu arte:
-1. Abre un issue en este repositorio con el link (codepen) a tu arte y tus datos (Nombre, Link a tu portafolio / Red Social).
-2. Haz un tweet con el hashtag #DibujarteCSS y etiqueta a @musartedev
+1. Abre un **issue** en este repositorio, selecciona el template `Solicitud de adición de arte a galería` y llena la información. 
+2. **Haz un tweet con el hashtag #DibujarteCSS** y etiqueta a @musartedev
 
 ## ➕ Contribuye
-Si quieres contrubuir y mejorar la galería, solo haz fork al repositorio y abre un PR describiendo tus cambios :D
+Si quieres contrubuir y mejorar la galería, solo haz fork al repositorio y abre un PR describiendo tus cambios :D. Serás añadido a la lista de contribuidores oficiales.
 
 ### 💜 Contribuidores oficiales
 * [Mariangélica Useche](https://github.com/musartedev)
