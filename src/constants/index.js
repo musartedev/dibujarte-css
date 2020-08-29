@@ -290,4 +290,15 @@ export const arts = [
     linkToOriginal: ' https://codepen.io/MemoBrown/pen/zYvmxGX',
     tags: ['ilustración', 'cartoon'],
   },
+  {
+    title: '⚡️ Pikachú',
+    author: {
+      name: 'Cristhian Mahecha',
+      github: 'https://github.com/CristhianM01',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-28+at+8.04.40+PM.png',
+    linkToOriginal: 'https://codepen.io/cristhianm01/pen/MWyojmz',
+    tags: ['ilustración', 'cartoon'],
+  },
 ];
