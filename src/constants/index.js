@@ -301,4 +301,15 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/cristhianm01/pen/MWyojmz',
     tags: ['ilustración', 'cartoon'],
   },
+  {
+    title: '⺾  Triforce Marks of the Goddesse',
+    author: {
+      name: 'Hugo',
+      twitter: 'https://twitter.com/hugok2k',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-28+at+8.11.12+PM.png',
+    linkToOriginal: 'https://codepen.io/hugok2k/pen/yLOVGMN',
+    tags: ['ilustración', 'animado'],
+  },
 ];
