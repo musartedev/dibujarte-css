@@ -278,4 +278,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/baumann/pen/YQKbqW',
     tags: ['ilustración', 'animado'],
   },
+  {
+    title: '🎇 Rick Sanchez',
+    author: {
+      name: 'Guillermo Moreno',
+      twitter: 'https://twitter.com/MemoBrown_',
+      github: 'https://github.com/MemoBrown',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-28+at+7.51.52+PM.png',
+    linkToOriginal: ' https://codepen.io/MemoBrown/pen/zYvmxGX',
+    tags: ['ilustración', 'cartoon'],
+  },
 ];
