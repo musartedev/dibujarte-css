@@ -266,4 +266,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/camilo-aguilera/pen/BaKpNzy',
     tags: ['ilustración', 'animado'],
   },
+  {
+    title: '🕹 Nintendo GameBoy',
+    author: {
+      name: 'Jorge Baumann',
+      github: 'https://github.com/baumannzone',
+      twitter: 'https://twitter.com/baumannzone',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-28+at+7.49.23+PM.png',
+    linkToOriginal: 'https://codepen.io/baumann/pen/YQKbqW',
+    tags: ['ilustración', 'animado'],
+  },
 ];
