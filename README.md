@@ -50,6 +50,7 @@ Si quieres contribuir y mejorar la galería, solo haz fork al repositorio y abre
 * [Mariangélica Useche](https://github.com/musartedev)
 * [Andrés Parra](https://github.com/AndresParraGO)
 * [Aldo RL](https://github.com/aldo-rl)
+* [Carlos Bustillo](https://github.com/cabustillo13)
 
 ## 📖 License
 The (MIT) License

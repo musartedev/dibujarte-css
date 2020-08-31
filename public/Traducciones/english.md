@@ -18,7 +18,7 @@
 </details>
 
 ## 👀 What is it about?
-Let's get into the use of style sheets. Ready to learn and stimulate your imagination?.
+Let's get into the use of style sheets. Ready to learn and stimulate your imagination?
 Anyone can participate, the idea is to share the process.
 
 ## 🤔 How can I participate?
