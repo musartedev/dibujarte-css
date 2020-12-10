@@ -14,6 +14,7 @@ body {
   margin: 0;
   background-color: var(--white);
   font-family: "Comfortaa", cursive;
+  transition: all 300ms;
 }
 
 a {
@@ -26,6 +27,23 @@ a {
 a:hover {
   border-color: var(--dark-brown);
 }
+
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb:active {
+  background-color: #777;
+}
+*::-webkit-scrollbar-track {
+  background-color: #ddd;
+}
+
 
 .App {
   margin: 2em auto;
@@ -175,15 +193,19 @@ a:hover {
 /*Dark Mode*/
 .dark__mode {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
   border-radius: 50%;
   overflow: hidden;
   cursor: pointer;
+  background-color: #333;
+  padding: .5rem;
 }
 
 .dark__mode-icon {
-  width: 50px;
+  display: block;
+  width: 30px;
+  transition: all 1s;
 }
 
 .dark-mode-colors {
