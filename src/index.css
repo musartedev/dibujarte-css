@@ -245,6 +245,31 @@ a:hover {
   height: 0;
 }
 
+.filter-arts {
+  display: block;
+  margin: 2rem auto 0 auto;
+  font-size: .9rem;
+  color: #fff;
+  text-align: center;
+  padding-left:1rem;
+  min-width: 100px;
+  height: 30px;
+  max-width: 200px;
+  border-radius:20px;
+  border: none;
+  background-color: var(--secondary);
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.filter-arts:focus {
+  outline:none;
+}
+
+
+
 .slider {
   position: absolute;
   cursor: pointer;
