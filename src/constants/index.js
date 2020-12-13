@@ -299,7 +299,7 @@ export const arts = [
     imgUrl:
       'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-28+at+8.04.40+PM.png',
     linkToOriginal: 'https://codepen.io/cristhianm01/pen/MWyojmz',
-    tags: ['ilustración', 'cartoon'],
+    tags: ['ilustración', 'cartoon', 'interactivo'],
   },
   {
     title: '⺾  Triforce Marks of the Goddesse',
@@ -311,5 +311,29 @@ export const arts = [
       'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-08-28+at+8.11.12+PM.png',
     linkToOriginal: 'https://codepen.io/hugok2k/pen/yLOVGMN',
     tags: ['ilustración', 'animado'],
+  },
+  {
+    title: '🤖 Bb-8 De Star Wars ',
+    author: {
+      name: 'Kelvin Ventura',
+      twitter: 'https://twitter.com/joel_kelvin19',
+      github: 'https://github.com/Kelvin-Joel'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-12-13+at+10.57.30+AM.png',
+    linkToOriginal: 'https://codepen.io/joelkelvin-vh/pen/ExKbmgJ',
+    tags: ['ilustración', 'animado', 'interactivo'],
+  },
+  {
+    title: '📱 Pokedex ',
+    author: {
+      name: 'Kelvin Ventura',
+      twitter: 'https://twitter.com/joel_kelvin19',
+      github: 'https://github.com/Kelvin-Joel'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2020-12-13+at+11.04.02+AM.png',
+    linkToOriginal: 'https://codepen.io/joelkelvin-vh/pen/LYNbMYy',
+    tags: ['ilustración', 'animado', 'interactivo'],
   },
 ];
