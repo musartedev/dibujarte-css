@@ -1,18 +1,16 @@
-
 import React, {useState} from 'react';
-import darkmode from '../assets/darkmode.png';
-import lightmode from '../assets/light.png';
-
+import darkmode from '../assets/moon.svg';
+import lightmode from '../assets/sun.svg';
 
 function DarkMode() {
   const [img, setImg] = useState(darkmode);
 
   const handlerDarkMode = () => {
-    const body = document.body
-    const isDarkMode = body.classList.contains('dark-mode-colors')
+    const body = document.body;
+    const isDarkMode = body.classList.contains('dark-mode-colors');
     setImg(
-      isDarkMode ?darkmode :lightmode
-    )
+      isDarkMode ? darkmode : lightmode
+    );
     body.classList.toggle('dark-mode-colors');
   }
 
