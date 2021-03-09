@@ -372,4 +372,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/juliolh06/pen/BaQJJGz?editors=1100',
     tags: ['ilustración'],
   },
+  {
+    title: '😺 Mishi',
+    author: {
+      name: 'Daniel Armas',
+      twitter: 'https://twitter.com/daniel692a',
+      github: 'https://github.com/daniel692a',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-03-09+at+9.27.08+AM.png',
+    linkToOriginal: 'https://codepen.io/daniel692/pen/mdOLrbp',
+    tags: ['ilustración'],
+  },
 ];
