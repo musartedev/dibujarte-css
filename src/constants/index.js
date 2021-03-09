@@ -408,4 +408,16 @@ export const arts = [
     linkToOriginal: 'https://github.com/JesusCH92/maquetacion--baby-yoda',
     tags: ['ilustración', 'animado'],
   },
+  {
+    title: '🥑 <avocado in love>',
+    author: {
+      name: 'Harrinson Quintero',
+      twitter: 'https://twitter.com/jhaqual',
+      github: 'https://github.com/jhaqual',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-03-09+at+9.29.01+AM.png',
+    linkToOriginal: 'https://codepen.io/jhaqual-the-sans/pen/MWbBVpO?editors=1100',
+    tags: ['ilustración', 'animado'],
+  },
 ];
