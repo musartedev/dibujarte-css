@@ -420,4 +420,15 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/jhaqual-the-sans/pen/MWbBVpO?editors=1100',
     tags: ['ilustración', 'animado'],
   },
+  {
+    title: '🚀 The Mandalorian',
+    author: {
+      name: 'Silfrido Benitez',
+      twitter: 'https://twitter.com/chio358',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-03-09+at+9.32.22+AM.png',
+    linkToOriginal: 'https://codepen.io/silfridob12/pen/JjbyaoV?editors=1100',
+    tags: ['ilustración'],
+  },
 ];
