@@ -360,4 +360,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/Photographya/pen/wvopMzK',
     tags: ['ilustración'],
   },
+  {
+    title: '📺 Televisor',
+    author: {
+      name: 'Julio Loarte',
+      twitter: 'https://twitter.com/juliolh06',
+      github: 'https://github.com/juliolh0686',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-03-09+at+9.26.28+AM.png',
+    linkToOriginal: 'https://codepen.io/juliolh06/pen/BaQJJGz?editors=1100',
+    tags: ['ilustración'],
+  },
 ];
