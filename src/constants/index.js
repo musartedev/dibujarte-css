@@ -348,4 +348,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/andresparragarzon/pen/LYRgoeK',
     tags: ['ilustración', 'animado'],
   },
+  {
+    title: '🦒 Jirafita',
+    author: {
+      name: 'Israel Vásquez',
+      twitter: 'https://twitter.com/IrrealeRiquadri',
+      github: 'https://github.com/Photographya',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-03-09+at+9.25.52+AM.png',
+    linkToOriginal: 'https://codepen.io/Photographya/pen/wvopMzK',
+    tags: ['ilustración'],
+  },
 ];
