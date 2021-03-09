@@ -336,4 +336,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/joelkelvin-vh/pen/LYNbMYy',
     tags: ['ilustración', 'animado', 'interactivo'],
   },
+  {
+    title: '🕕 Analog Clock ',
+    author: {
+      name: 'Andrés Parra',
+      twitter: 'https://twitter.com/AndresParraGar4',
+      github: 'https://github.com/AndresParraGO',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-03-09+at+9.22.29+AM.png',
+    linkToOriginal: 'https://codepen.io/andresparragarzon/pen/LYRgoeK',
+    tags: ['ilustración', 'animado'],
+  },
 ];
