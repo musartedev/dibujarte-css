@@ -396,4 +396,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/sebdidesign/pen/ZEBjpNG',
     tags: ['ilustración'],
   },
+  {
+    title: '🧑🏾‍🚀 Baby Yoda',
+    author: {
+      name: 'Jesús',
+      twitter: 'https://twitter.com/DddTarea',
+      github: 'https://github.com/JesusCH92',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-03-09+at+9.28.24+AM.png',
+    linkToOriginal: 'https://github.com/JesusCH92/maquetacion--baby-yoda',
+    tags: ['ilustración', 'animado'],
+  },
 ];
