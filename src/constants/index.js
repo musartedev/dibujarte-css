@@ -384,4 +384,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/daniel692/pen/mdOLrbp',
     tags: ['ilustración'],
   },
+  {
+    title: '🧑🏾‍🚀 The Space',
+    author: {
+      name: 'Sebastián Díaz',
+      twitter: 'https://twitter.com/sebdidesign',
+      github: 'https://github.com/Medotq',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-03-09+at+9.27.41+AM.png',
+    linkToOriginal: 'https://codepen.io/sebdidesign/pen/ZEBjpNG',
+    tags: ['ilustración'],
+  },
 ];
