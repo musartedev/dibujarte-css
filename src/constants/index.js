@@ -431,4 +431,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/silfridob12/pen/JjbyaoV?editors=1100',
     tags: ['ilustración'],
   },
+  {
+    title: '🍩 Homero Simpsons',
+    author: {
+      name: 'Eduardo Reyes',
+      twitter: 'https://twitter.com/JoEduardoReyes',
+      github: 'https://github.com/JoEduardoReyes'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-03-24+at+7.47.55+AM.png',
+    linkToOriginal: 'https://codepen.io/JoEduardoReyes/pen/LYbJBVr',
+    tags: ['ilustración'],
+  },
 ];
