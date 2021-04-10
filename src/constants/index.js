@@ -455,4 +455,16 @@ export const arts = [
     linkToOriginal: 'https://github.com/DavidOsorioLeyva/chessboard',
     tags: ['ilustración', 'animado'],
   },
+  {
+    title: '🐶 DogeCoin to the Moon',
+    author: {
+      name: 'David Osorio Leyva',
+      twitter: 'https://twitter.com/nickingnova',
+      github: 'https://github.com/nickingnova'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-04-10+at+6.14.33+PM.png',
+    linkToOriginal: 'https://nickingnova.github.io/dogecoinchallenge/',
+    tags: ['ilustración'],
+  },
 ];
