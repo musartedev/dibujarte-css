@@ -479,4 +479,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/manuel-2/pen/eYgdeQr',
     tags: ['ilustración'],
   },
+  {
+    title: '🔥 Kakashi',
+    author: {
+      name: 'Leonardo Alain',
+      twitter: 'https://twitter.com/Allin826381',
+      github: 'https://github.com/Alincut'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-04-10+at+6.15.24+PM.png',
+    linkToOriginal: 'https://alincut.github.io/kakashi/',
+    tags: ['ilustración'],
+  },
 ];
