@@ -443,4 +443,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/JoEduardoReyes/pen/LYbJBVr',
     tags: ['ilustración'],
   },
+  {
+    title: '♕ Chess Board',
+    author: {
+      name: 'David Osorio Leyva',
+      twitter: 'https://twitter.com/soyDavidOsorio',
+      github: 'https://github.com/DavidOsorioLeyva'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-04-10+at+6.11.55+PM.png',
+    linkToOriginal: 'https://github.com/DavidOsorioLeyva/chessboard',
+    tags: ['ilustración', 'animado'],
+  },
 ];
