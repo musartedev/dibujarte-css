@@ -539,7 +539,7 @@ export const arts = [
     tags: ['ilustración', 'animado'],
   },
   {
-    title: '🧟‍♂️ Doraemon',
+    title: '😺 Doraemon',
     author: {
       name: 'José Hernández',
       twitter: 'https://twitter.com/denver15jh',
@@ -548,6 +548,17 @@ export const arts = [
     imgUrl:
       'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-06-17+at+7.38.11+PM.png',
     linkToOriginal: 'https://codepen.io/denver15jh/pen/GRWxMjP',
+    tags: ['ilustración'],
+  },
+  {
+    title: '♥️ GARU',
+    author: {
+      name: 'Brandon Huamán',
+      github: 'https://github.com/Brandon328'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-06-17+at+7.38.37+PM.png',
+    linkToOriginal: 'https://codepen.io/brandon328/pen/mdWLoGJ',
     tags: ['ilustración'],
   },
 ];
