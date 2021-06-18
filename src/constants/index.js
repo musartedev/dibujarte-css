@@ -526,4 +526,16 @@ export const arts = [
     linkToOriginal: 'https://dh-cartoon-css.vercel.app/',
     tags: ['ilustración'],
   },
+  {
+    title: '🧟‍♂️ Zombie',
+    author: {
+      name: 'Carlos Córdova',
+      twitter: 'https://twitter.com/carloscdev',
+      github: 'https://github.com/carloscdev'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-06-17+at+7.37.43+PM.png',
+    linkToOriginal: 'https://codepen.io/carloscdev/pen/rNyJJYY',
+    tags: ['ilustración', 'animado'],
+  },
 ];
