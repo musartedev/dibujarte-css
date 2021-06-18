@@ -515,4 +515,15 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/mabmab159/pen/LYxqLqq',
     tags: ['ilustración'],
   },
+  {
+    title: '💀 Deathly hallows',
+    author: {
+      name: 'Sergio González',
+      github: 'https://github.com/Sergio9815'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-06-17+at+7.36.55+PM.png',
+    linkToOriginal: 'https://dh-cartoon-css.vercel.app/',
+    tags: ['ilustración'],
+  },
 ];
