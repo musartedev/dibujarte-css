@@ -561,4 +561,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/brandon328/pen/mdWLoGJ',
     tags: ['ilustración'],
   },
+  {
+    title: '🐣 Pollito volador',
+    author: {
+      name: 'Miguel Franchi',
+      twitter: 'https://twitter.com/mfranchi82',
+      github: 'https://github.com/mfranchi82/'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-06-17+at+7.39.12+PM.png',
+    linkToOriginal: 'https://codepen.io/mfranchi82/pen/VwpEpLE?editors=1100',
+    tags: ['ilustración', 'animado'],
+  },
 ];
