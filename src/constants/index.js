@@ -503,4 +503,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/alexanderlgrs/pen/dyNmXWK',
     tags: ['ilustración'],
   },
+  {
+    title: '💀 La Parca',
+    author: {
+      name: 'Miguel Berrio ',
+      twitter: 'https://twitter.com/mabmab0159',
+      github: 'https://github.com/mabmab159'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-06-17+at+7.35.58+PM.png',
+    linkToOriginal: 'https://codepen.io/mabmab159/pen/LYxqLqq',
+    tags: ['ilustración'],
+  },
 ];
