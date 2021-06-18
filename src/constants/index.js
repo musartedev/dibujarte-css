@@ -491,4 +491,16 @@ export const arts = [
     linkToOriginal: 'https://alincut.github.io/kakashi/',
     tags: ['ilustración'],
   },
+  {
+    title: '🌸 Stitch',
+    author: {
+      name: 'Alexander Lansdorp',
+      twitter: 'https://twitter.com/GironLansdorp',
+      github: 'https://github.com/AlexanderLGRS'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2021-06-17+at+7.33.43+PM.png',
+    linkToOriginal: 'https://codepen.io/alexanderlgrs/pen/dyNmXWK',
+    tags: ['ilustración'],
+  },
 ];
