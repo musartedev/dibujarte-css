@@ -656,4 +656,15 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/cristiann998/pen/bGYBONY',
     tags: ['ilustración'],
   },
+  {
+    title: '🔴 Mickey',
+    author: {
+      name: 'Cristian Casallas',
+      twitter: 'https://twitter.com/patrickjeremy02/',
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-02-15+at+2.25.02+PM.png',
+    linkToOriginal: 'https://codepen.io/patrickjeremy02/pen/NWdbvzX',
+    tags: ['ilustración'],
+  },
 ];
