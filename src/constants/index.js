@@ -608,4 +608,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/mager19/pen/GRvOxbP',
     tags: ['ilustración'],
   },
+  {
+    title: '🐂 Axie Infinity',
+    author: {
+      name: 'Gastón Ezequiel Papa',
+      twitter: 'https://twitter.com/cAtSeVeN_G7',
+      github: 'https://github.com/ca7seven/'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-02-15+at+2.07.48+PM.png',
+    linkToOriginal: 'https://codepen.io/ca7seven/pen/abyXKex',
+    tags: ['ilustración'],
+  },
 ];
