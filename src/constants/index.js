@@ -620,4 +620,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/ca7seven/pen/abyXKex',
     tags: ['ilustración'],
   },
+  {
+    title: '🌎 Tierra-css',
+    author: {
+      name: 'Ricardo Ojeda',
+      twitter: 'https://twitter.com/ricandres_98',
+      github: 'https://github.com/ricandres98/'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-02-15+at+2.11.14+PM.png',
+    linkToOriginal: 'https://codepen.io/ricandres98/pen/YzrJZYV',
+    tags: ['ilustración'],
+  },
 ];
