@@ -632,4 +632,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/ricandres98/pen/YzrJZYV',
     tags: ['ilustración'],
   },
+  {
+    title: '🦄 Unicorn Llama',
+    author: {
+      name: 'Rodrigo Goitia',
+      twitter: 'https://twitter.com/rodruxdev',
+      github: 'https://github.com/rodruxdev/'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-02-15+at+2.13.41+PM.png',
+    linkToOriginal: 'https://codepen.io/rodruxdev/pen/xxXBeOY',
+    tags: ['ilustración'],
+  },
 ];
