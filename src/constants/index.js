@@ -596,4 +596,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/doncanzsa/pen/xxrRrBB',
     tags: ['ilustración'],
   },
+  {
+    title: '🧍🏻‍♂️ Lego Man',
+    author: {
+      name: 'Mario Germán Reyes',
+      twitter: 'https://twitter.com/mager19',
+      github: 'https://github.com/mager19/'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-02-15+at+2.04.17+PM.png',
+    linkToOriginal: 'https://codepen.io/mager19/pen/GRvOxbP',
+    tags: ['ilustración'],
+  },
 ];
