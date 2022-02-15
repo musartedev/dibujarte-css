@@ -585,4 +585,15 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/mike-droid/pen/WNpmLJL',
     tags: ['ilustración'],
   },
+  {
+    title: '🧑🏾‍🦲 Calvito',
+    author: {
+      name: 'Stanley Alvarez',
+      github: 'https://github.com/doncanzsa'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-02-15+at+2.00.36+PM.png',
+    linkToOriginal: 'https://codepen.io/doncanzsa/pen/xxrRrBB',
+    tags: ['ilustración'],
+  },
 ];
