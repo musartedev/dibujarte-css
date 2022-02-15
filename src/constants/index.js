@@ -644,4 +644,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/rodruxdev/pen/xxXBeOY',
     tags: ['ilustración'],
   },
+  {
+    title: '🔷 Fat Heisenberg',
+    author: {
+      name: 'Cristian Casallas',
+      twitter: 'https://twitter.com/cricadev/',
+      github: 'https://github.com/CristianN998/'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-02-15+at+2.16.58+PM.png',
+    linkToOriginal: 'https://codepen.io/cristiann998/pen/bGYBONY',
+    tags: ['ilustración'],
+  },
 ];
