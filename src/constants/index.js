@@ -573,4 +573,16 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/mfranchi82/pen/VwpEpLE?editors=1100',
     tags: ['ilustración', 'animado'],
   },
+  {
+    title: '☕️ Cuphead',
+    author: {
+      name: 'Miguel Ángel Reyes',
+      twitter: 'https://twitter.com/MiguelAngelRe28',
+      github: 'https://github.com/Mike-droid/'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-02-15+at+1.39.24+PM.png',
+    linkToOriginal: 'https://codepen.io/mike-droid/pen/WNpmLJL',
+    tags: ['ilustración'],
+  },
 ];
