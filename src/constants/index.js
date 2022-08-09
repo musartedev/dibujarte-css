@@ -667,4 +667,27 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/patrickjeremy02/pen/NWdbvzX',
     tags: ['ilustración'],
   },
+  {
+    title: '👒 Luffy',
+    author: {
+      name: 'Jonathan Vivero',
+      twitter: 'https://twitter.com/jonvirodev',
+      github: 'https://github.com/jonathanviro'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-08-09+at+12.29.34+PM.png',
+    linkToOriginal: 'https://codepen.io/jonathanviro/pen/oNqoZYE',
+    tags: ['ilustración'],
+  },
+  {
+    title: '👨🏼‍🦲 Primer dibujo',
+    author: {
+      name: 'Erika Nathaly',
+      github: 'https://github.com/erikabernalm'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-08-09+at+12.30.57+PM.png',
+    linkToOriginal: 'https://codepen.io/erikabernalm/pen/VwXrOpO',
+    tags: ['ilustración'],
+  },
 ];
