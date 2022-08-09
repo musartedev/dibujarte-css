@@ -690,4 +690,28 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/erikabernalm/pen/VwXrOpO',
     tags: ['ilustración'],
   },
+  {
+    title: '👁 Ojo animado',
+    author: {
+      name: 'Joel Ventura',
+      twitter: 'https://twitter.com/joel_kelvin19',
+      github: 'https://github.com/Kelvin-Joel'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-08-09+at+12.36.06+PM.png',
+    linkToOriginal: 'https://codepen.io/joelkelvin-vh/pen/XWZEeyb',
+    tags: ['ilustración', 'animado'],
+  },
+  {
+    title: '👁 Ojo animado',
+    author: {
+      name: 'Edgar Contreras',
+      twitter: 'https://twitter.com/edgar_46',
+      github: 'https://github.com/escontrerass'
+    },
+    imgUrl:
+      'https://dibujartecss.s3.us-east-2.amazonaws.com/Screen+Shot+2022-08-09+at+12.40.03+PM.png',
+    linkToOriginal: 'https://codepen.io/escontrerass/pen/bGYzgmo',
+    tags: ['ilustración'],
+  },
 ];
