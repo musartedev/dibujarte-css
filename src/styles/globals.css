@@ -26,17 +26,72 @@
   --color-accent-muted: #2e1065;
 }
 
+:root {
+  --gallery-sidebar-width: 0px;
+  --site-header-height: 3.5rem;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --site-header-height: 4.5625rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --gallery-sidebar-width: 15rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --gallery-sidebar-width: 16rem;
+  }
+}
+
+.gallery-layout-offset {
+  padding-left: var(--gallery-sidebar-width);
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 50;
+  height: var(--site-header-height);
+  border-bottom: 1px solid var(--color-border);
+  background-color: color-mix(in srgb, var(--color-surface) 95%, transparent);
+  backdrop-filter: blur(12px);
+}
+
+.site-main {
+  padding-top: var(--site-header-height);
+}
+
+.scroll-mt-header {
+  scroll-margin-top: var(--site-header-height);
+}
+
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
   margin: 0;
-  overflow-x: clip;
+  overflow-x: hidden;
+  max-width: 100%;
   font-family: var(--font-sans);
   background-color: var(--color-surface);
   color: var(--color-text);
   transition: background-color 0.2s, color 0.2s;
+}
+
+#root {
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 *::-webkit-scrollbar {
@@ -333,21 +388,51 @@ body {
   transform: translate(1px, -1px);
 }
 
-.filter-chip {
+.gallery-sidebar {
+  animation: fade-in 0.4s ease both;
+  top: var(--site-header-height);
+  width: var(--gallery-sidebar-width);
+}
+
+.gallery-mobile-bar {
+  animation: fade-in 0.35s ease both;
+}
+
+.bottom-sheet-panel {
+  animation: sheet-up 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes sheet-up {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mobile-bar-btn {
+  transition: background-color 0.2s ease;
+}
+
+.mobile-bar-btn:active {
+  background-color: var(--color-accent-muted);
+}
+
+.mobile-bar-btn--active {
+  background-color: color-mix(in srgb, var(--color-accent-muted) 65%, transparent);
+}
+
+.filter-option {
   transition:
-    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
-    background-color 0.25s ease,
-    border-color 0.25s ease,
-    color 0.25s ease,
-    box-shadow 0.25s ease;
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
-.filter-chip:active {
-  transform: scale(0.94);
-}
-
-.filter-chip[aria-pressed="true"] {
-  box-shadow: 0 4px 14px color-mix(in srgb, var(--color-accent) 30%, transparent);
+.filter-option:active {
+  transform: scale(0.99);
 }
 
 .art-card {

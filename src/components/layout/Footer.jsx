@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-[var(--color-border)] py-8 text-center text-sm text-[var(--color-text-muted)]">
+    <footer className="gallery-layout-offset border-t border-[var(--color-border)] py-8 text-center text-sm text-[var(--color-text-muted)]">
       <p>
         Hecho desde LATAM con{' '}
         <span className="inline-block transition hover:scale-125" role="img" aria-label="corazón morado">

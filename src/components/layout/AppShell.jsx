@@ -31,17 +31,17 @@ function ThemeToggle() {
 
 export default function AppShell({ children }) {
   return (
-    <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-surface)]/95 backdrop-blur-md">
-        <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4">
+    <div className="flex min-h-screen w-full min-w-0 flex-col overflow-x-hidden">
+      <header className="site-header">
+        <div className="flex h-full w-full items-center justify-between gap-3 px-4 sm:px-6">
           <a
             href="/"
             className="group flex min-w-0 items-center gap-2 font-[family-name:var(--font-display)] text-base font-bold tracking-tight text-[var(--color-text)] sm:text-lg"
           >
+            <span className="truncate transition group-hover:text-[var(--color-accent)]">Dibujarte</span>
             <span className="logo-badge flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[var(--color-accent)] text-xs text-white sm:h-9 sm:w-9 sm:text-sm">
               CSS
             </span>
-            <span className="truncate transition group-hover:text-[var(--color-accent)]">Dibujarte</span>
           </a>
 
           <nav className="flex shrink-0 items-center gap-1.5 sm:gap-2" aria-label="Principal">
@@ -61,7 +61,7 @@ export default function AppShell({ children }) {
         </div>
       </header>
 
-      <main className="min-w-0 flex-1">{children}</main>
+      <main className="site-main min-w-0 flex-1">{children}</main>
 
       <Footer />
     </div>

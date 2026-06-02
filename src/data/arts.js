@@ -794,6 +794,7 @@ const rawArts = [
 
 export const arts = rawArts.map((art, index) => ({
   ...art,
+  orderIndex: index,
   id:
     art.linkToOriginal
       .replace(/^https?:\/\//, '')
@@ -801,6 +802,12 @@ export const arts = rawArts.map((art, index) => ({
       .replace(/^-|-$/g, '')
       .slice(0, 100) || `art-${index}`,
 }));
+
+export const SORT_OPTIONS = [
+  { value: 'recientes', label: 'Más recientes', shortLabel: 'Recientes' },
+  { value: 'antiguos', label: 'Más antiguos', shortLabel: 'Antiguos' },
+  { value: 'votados', label: 'Más votados', shortLabel: 'Votados' },
+];
 
 export const FILTER_TAGS = [
   { value: 'todos', label: 'Todos' },

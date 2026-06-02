@@ -25,7 +25,7 @@ function SocialIcon({ type }) {
 
 export default function ArtCard({ id, title, author, imgUrl, linkToOriginal, tags }) {
   return (
-    <article className="art-card group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface-elevated)] shadow-sm">
+    <article className="art-card group flex h-full min-w-0 w-full flex-col overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface-elevated)] shadow-sm">
       <a
         href={linkToOriginal}
         target="_blank"
@@ -49,12 +49,12 @@ export default function ArtCard({ id, title, author, imgUrl, linkToOriginal, tag
       <footer className="flex flex-1 flex-col gap-2.5 p-3.5">
         <div className="min-w-0">
           <div className="flex items-start justify-between gap-2">
-            <h3 className="min-w-0 font-[family-name:var(--font-display)] text-[0.9375rem] font-bold leading-snug tracking-tight">
+            <h3 className="min-w-0 flex-1 font-[family-name:var(--font-display)] text-[0.9375rem] font-bold leading-snug tracking-tight">
               <a
                 href={linkToOriginal}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="card-title-link text-[var(--color-text)]"
+                className="card-title-link block truncate text-[var(--color-text)]"
               >
                 {title}
               </a>
@@ -64,7 +64,7 @@ export default function ArtCard({ id, title, author, imgUrl, linkToOriginal, tag
           <p className="mt-1 truncate text-sm text-[var(--color-text-muted)]">{author.name}</p>
         </div>
 
-        <div className="mt-auto flex items-end justify-between gap-2">
+        <div className="mt-auto flex flex-wrap items-end justify-between gap-x-2 gap-y-2">
           <div className="flex min-w-0 flex-wrap gap-1">
             {tags.map((tag) => (
               <span
