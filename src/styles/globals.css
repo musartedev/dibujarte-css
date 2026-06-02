@@ -400,6 +400,61 @@ body {
   transform: scale(0.94);
 }
 
+.vote-btn {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 9999px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  padding: 0.3125rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.vote-btn:hover:not(:disabled) {
+  border-color: color-mix(in srgb, var(--color-accent) 45%, var(--color-border));
+  background-color: var(--color-accent-muted);
+  color: var(--color-accent);
+}
+
+.vote-btn:active:not(:disabled) {
+  transform: scale(0.94);
+}
+
+.vote-btn--voted,
+.vote-btn:disabled {
+  cursor: default;
+  border-color: color-mix(in srgb, var(--color-accent) 35%, var(--color-border));
+  background-color: var(--color-accent-muted);
+  color: var(--color-accent);
+}
+
+.vote-btn--voted:not(:disabled) {
+  animation: vote-pop 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes vote-pop {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .art-card-media::after {
   content: "";
   position: absolute;

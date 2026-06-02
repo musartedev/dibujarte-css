@@ -794,7 +794,12 @@ const rawArts = [
 
 export const arts = rawArts.map((art, index) => ({
   ...art,
-  id: `art-${index}`,
+  id:
+    art.linkToOriginal
+      .replace(/^https?:\/\//, '')
+      .replace(/[^a-zA-Z0-9]+/g, '-')
+      .replace(/^-|-$/g, '')
+      .slice(0, 100) || `art-${index}`,
 }));
 
 export const FILTER_TAGS = [
