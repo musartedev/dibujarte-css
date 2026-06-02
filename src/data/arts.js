@@ -790,6 +790,16 @@ const rawArts = [
     linkToOriginal: 'https://github.com/HeribertoDejesus/dibujo-css',
     tags: ['ilustración', 'pixel-art'],
   },
+  {
+    title: '💛 Minion',
+    author: {
+      name: 'Wilson Ivan Gutierrez Peña',
+      github: 'https://github.com/wilsonwigp',
+    },
+    imgUrl: 'https://dibujartecss.s3.us-east-2.amazonaws.com/Screenshot+2026-06-02+at+4.36.26%E2%80%AFPM.png',
+    linkToOriginal: 'https://wilsonwigp.github.io/Dibujando_con_css/',
+    tags: ['cartoon', 'ilustración'],
+  },
 ];
 
 export const arts = rawArts.map((art, index) => ({
