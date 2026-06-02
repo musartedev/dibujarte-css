@@ -1,25 +1,24 @@
 {
-  "short_name": "Dibujarte CSS",
-  "name": "Dibujarte CSS - Art with CSS",
+  "short_name": "DibujarteCSS",
+  "name": "DibujarteCSS — Galería de arte con HTML y CSS",
+  "description": "Galería comunitaria #DibujarteCSS: arte hecho solo con HTML y CSS.",
+  "lang": "es",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "144X144 64x64 32x32 24x24 16x16",
+      "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#7c3aed",
+  "background_color": "#f8f7fc"
 }

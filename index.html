@@ -2,19 +2,112 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="DibujarteCSS: galería de arte con CSS y generador con IA" />
-    <meta name="theme-color" content="#0f0f12" />
+
+    <title>DibujarteCSS — Galería de arte con HTML y CSS</title>
+    <meta
+      name="description"
+      content="Galería comunitaria #DibujarteCSS: arte hecho solo con HTML y CSS. Explora más de 60 obras, filtra por estilo y únete al reto creativo desde LATAM."
+    />
+    <meta
+      name="keywords"
+      content="DibujarteCSS, CSS art, arte con CSS, HTML CSS, galería CSS, dibujar con CSS, reto CSS, comunidad CSS"
+    />
+    <meta name="author" content="Mariangélica Useche" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://dibujartecss.musarte.dev/" />
+
+    <meta name="theme-color" content="#7c3aed" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="DibujarteCSS" />
+    <meta property="og:url" content="https://dibujartecss.musarte.dev/" />
+    <meta property="og:title" content="DibujarteCSS — Galería de arte con HTML y CSS" />
+    <meta
+      property="og:description"
+      content="Galería comunitaria #DibujarteCSS: arte hecho solo con HTML y CSS. Explora obras, filtra por estilo y únete al reto."
+    />
+    <meta property="og:image" content="https://dibujartecss.musarte.dev/logo512.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Logo de DibujarteCSS — galería de arte con CSS" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@musartedev" />
+    <meta name="twitter:creator" content="@musartedev" />
+    <meta name="twitter:title" content="DibujarteCSS — Galería de arte con HTML y CSS" />
+    <meta
+      name="twitter:description"
+      content="Galería comunitaria #DibujarteCSS: arte hecho solo con HTML y CSS. Explora obras y únete al reto."
+    />
+    <meta name="twitter:image" content="https://dibujartecss.musarte.dev/logo512.png" />
+    <meta name="twitter:image:alt" content="Logo de DibujarteCSS — galería de arte con CSS" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/logo512.png" />
+    <link rel="manifest" href="/manifest.json" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
-    <title>DibujarteCSS</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://dibujartecss.musarte.dev/#website",
+            "url": "https://dibujartecss.musarte.dev/",
+            "name": "DibujarteCSS",
+            "description": "Galería comunitaria de arte hecho solo con HTML y CSS. Reto creativo #DibujarteCSS para aprender, compartir y experimentar con CSS.",
+            "inLanguage": "es",
+            "publisher": {
+              "@type": "Person",
+              "name": "Mariangélica Useche",
+              "url": "https://musarte.dev",
+              "sameAs": [
+                "https://github.com/musartedev",
+                "https://x.com/musartedev",
+                "https://www.instagram.com/musarte.dev"
+              ]
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://dibujartecss.musarte.dev/#galeria",
+            "url": "https://dibujartecss.musarte.dev/#galeria",
+            "name": "Galería #DibujarteCSS",
+            "description": "Colección de ilustraciones, personajes y objetos dibujados únicamente con HTML y CSS por la comunidad.",
+            "isPartOf": { "@id": "https://dibujartecss.musarte.dev/#website" },
+            "about": {
+              "@type": "Thing",
+              "name": "CSS art",
+              "description": "Arte visual creado con hojas de estilo CSS sin imágenes ni SVG"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
+    <noscript>
+      <main>
+        <h1>DibujarteCSS</h1>
+        <p>
+          Galería comunitaria de arte hecho solo con HTML y CSS. Visita
+          <a href="https://github.com/musartedev/dibujarte-css">GitHub</a> para contribuir con
+          #DibujarteCSS.
+        </p>
+      </main>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

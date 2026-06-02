@@ -19,9 +19,10 @@ export default function ArtCard({ title, author, imgUrl, linkToOriginal, tags })
       <div className="aspect-square overflow-hidden bg-[var(--color-accent-muted)]">
         <img
           src={imgUrl}
-          alt={title}
+          alt={`${title} — obra de ${author.name} hecha con CSS`}
           className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
           loading="lazy"
+          decoding="async"
         />
       </div>
 

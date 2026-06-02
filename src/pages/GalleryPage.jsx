@@ -41,7 +41,10 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      <section id="galeria" className="scroll-mt-24 mb-8">
+      <section id="galeria" className="scroll-mt-24 mb-8" aria-labelledby="galeria-heading">
+        <h2 id="galeria-heading" className="sr-only">
+          Galería de obras
+        </h2>
         <FilterChips active={filter} onChange={setFilter} />
         <p className="mt-4 text-center text-sm text-[var(--color-text-muted)]">
           <span key={countKey} className="count-pop inline-block font-semibold text-[var(--color-accent)]">
