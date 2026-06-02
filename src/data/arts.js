@@ -1,4 +1,4 @@
-export const arts = [
+const rawArts = [
   {
     title: '✨ Sakura Card Captor Key',
     author: {
@@ -714,4 +714,20 @@ export const arts = [
     linkToOriginal: 'https://codepen.io/escontrerass/pen/bGYzgmo',
     tags: ['ilustración'],
   },
+];
+
+export const arts = rawArts.map((art, index) => ({
+  ...art,
+  id: `art-${index}`,
+}));
+
+export const FILTER_TAGS = [
+  { value: 'todos', label: 'Todos' },
+  { value: 'cartoon', label: 'Cartoon' },
+  { value: 'ilustración', label: 'Ilustración' },
+  { value: 'realismo', label: 'Realismo' },
+  { value: 'animado', label: 'Animado' },
+  { value: 'pixel-art', label: 'Pixel Art' },
+  { value: 'flat', label: 'Flat' },
+  { value: 'interactivo', label: 'Interactivo' },
 ];
