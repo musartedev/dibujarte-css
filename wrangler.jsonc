@@ -2,5 +2,12 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "dibujarte-css",
   "compatibility_date": "2025-03-01",
-  "pages_build_output_dir": "dist"
+  "pages_build_output_dir": "dist",
+  "kv_namespaces": [
+    {
+      "binding": "VOTES",
+      "id": "dc0e4beca8e14fd4aef8d364167dd67e",
+      "preview_id": "52d3592145e34082a241609635211cc3"
+    }
+  ]
 }

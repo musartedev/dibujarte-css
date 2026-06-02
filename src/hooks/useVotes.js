@@ -50,8 +50,8 @@ export function useVotesState() {
 
   useEffect(() => {
     fetchCounts()
-      .then((remote) => setCounts(remote))
-      .catch(() => setCounts(readLocalCounts()));
+      .then((remote) => setCounts((prev) => ({ ...prev, ...remote })))
+      .catch(() => setCounts((prev) => ({ ...prev, ...readLocalCounts() })));
   }, []);
 
   const hasVoted = useCallback((artId) => votedIds.has(artId), [votedIds]);
@@ -66,7 +66,11 @@ export function useVotesState() {
 
       try {
         const { votes } = await postVote(artId);
-        setCounts((prev) => ({ ...prev, [artId]: votes }));
+        setCounts((prev) => {
+          const next = { ...prev, [artId]: votes };
+          writeLocalCounts(next);
+          return next;
+        });
       } catch {
         setCounts((prev) => {
           const next = { ...prev, [artId]: (prev[artId] ?? 0) + 1 };
