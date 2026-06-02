@@ -15,7 +15,7 @@ function SocialIcon({ type }) {
 
 export default function ArtCard({ title, author, imgUrl, linkToOriginal, tags }) {
   return (
-    <article className="group relative overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface-elevated)] shadow-sm transition hover:shadow-lg">
+    <article className="art-card group relative overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface-elevated)] shadow-sm">
       <div className="aspect-square overflow-hidden bg-[var(--color-accent-muted)]">
         <img
           src={imgUrl}
@@ -30,7 +30,7 @@ export default function ArtCard({ title, author, imgUrl, linkToOriginal, tags })
           href={linkToOriginal}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-[family-name:var(--font-display)] text-lg font-bold text-white hover:underline"
+          className="art-title-link font-[family-name:var(--font-display)] text-lg font-bold text-white"
         >
           {title}
         </a>

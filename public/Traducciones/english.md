@@ -1,16 +1,17 @@
 # Dibujarte CSS
+
 ✨ It's time to draw with CSS! ✨
 
 <p align="left">
-    <a href="https://github.com/musartedev/dibujarte-css/blob/master/README.md">Español</a>
-    ·
-    <a href="https://github.com/musartedev/dibujarte-css/blob/master/public/Traducciones/english.md">English</a>
-    ·
-    <a href="https://github.com/musartedev/dibujarte-css/blob/master/public/Traducciones/portugues.md">Português Brasileiro</a>
+  <a href="../../README.md">Español</a>
+  ·
+  <a href="english.md">English</a>
+  ·
+  <a href="portugues.md">Português Brasileiro</a>
 </p>
 
+[🟣 Live](https://dibujartecss.musarte.dev/)
 
-[🟣   Live](https://dibujartecss.musarte.dev/)
 <details>
 <summary>👁 Preview</summary>
 
@@ -18,40 +19,97 @@
 </details>
 
 ## 👀 What is it about?
-Let's get into the use of style sheets. Ready to learn and stimulate your imagination?
-Anyone can participate, the idea is to share the process.
+
+Let's dive into stylesheets. Ready to learn and spark your imagination?
+
+**#DibujarteCSS** is a community gallery of art made with HTML and CSS only. Anyone can join — the goal isn't to compete, but to **share the process**, experiment, and be amazed by what you can build without images or SVG.
+
+Whether it's your first CSS drawing or you've been at it for years, there's a place for you here 💜
 
 ## 🤔 How can I participate?
-You don't have to be a CSS expert, the idea is to learn.
 
-🟣 To begin, we are going to document ourselves about the properties that will be most useful. I recommend looking for:
-* background
-* clip-path
-* box-shadow
-* border
+You don't have to be a CSS expert. The idea is to learn, try, and have fun.
 
-🟣 Some resources to get fully into the subject:
+🟣 **First**, let's read up on the properties that will help the most:
+
+* `background`
+* `clip-path`
+* `box-shadow`
+* `border`
+
+🟣 **Recommended resources** to go deeper:
+
 * [Drawing with CSS Gradient](https://css-tricks.com/drawing-images-with-css-gradients/)
-* [Sigle div drawings](https://hacks.mozilla.org/2014/09/single-div-drawings-with-css/)
+* [Single div drawings](https://hacks.mozilla.org/2014/09/single-div-drawings-with-css/)
 * [Basic guide to create images with CSS](https://medium.com/coding-artist/a-beginners-guide-to-pure-css-images-ef9a5d069dd2)
 
-🟣 Read the resources, then choose an object that represents you and start drawing it with CSS. Choose the technique that you want. It can be realistic, cartoon, etc.
+🟣 **Then**, pick an everyday object that represents you and draw it with CSS. Any style works: realistic, cartoon, pixel art, flat… your call.
 
-✨**OPTIONAL**: Add some interaction with JS.
+✨ **Optional:** add some interaction with JS.
 
-## 🎨 Can I add my picture in the gallery?
-Sure! You have two ways to send us your art:
-1. Open an **issue** in this repository, select the template `Solicitud de adición de arte a galería` and fill in the information.
-2. **Make a tweet with the hashtag #DibujarteCSS** and tag to @musartedev
+## 🎨 I want my drawing in the gallery
+
+Sure thing! You can reach us in two ways:
+
+1. Open an **issue** in this repository, select the template `Solicitud de adición de arte a galería`, and fill in the details.
+2. **Post with the hashtag #DibujarteCSS** and tag [@musartedev](https://x.com/musartedev).
+
+We'd love to see your work 🎨
 
 ## ➕ Contribute
-If you want to contribute and improve the gallery, just fork the repository and open a PR describing your changes :D. You will be added to the list of official contributors.
+
+Want to improve the gallery, fix bugs, or suggest ideas? **Go for it!**
+
+1. **Fork** the repository.
+2. Create a branch with your changes.
+3. Open a **PR** describing what you did and why.
+
+You'll be added to the list of official contributors. Every bit helps: code, copy, accessibility, design, docs…
 
 ### 💜 Official contributors
+
 * [Mariangélica Useche](https://github.com/musartedev)
 * [Andrés Parra](https://github.com/AndresParraGO)
 * [Aldo RL](https://github.com/aldo-rl)
 * [Carlos Bustillo](https://github.com/cabustillo13)
 
+---
+
+## 🛠 Stack & development
+
+The gallery runs on:
+
+* Vite + React 18
+* Tailwind CSS v4
+* Cloudflare Pages (static site)
+
+### Local development
+
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:5173
+
+### Deploy on Cloudflare Pages
+
+1. [Cloudflare Dashboard](https://dash.cloudflare.com) → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**
+2. Build command: `npm run build`
+3. Output directory: `dist`
+
+Or via CLI:
+
+```bash
+npm run deploy
+```
+
+### AI generator (next iteration)
+
+The prompt-based generator was temporarily removed. Reimplementation plan:
+
+→ [`docs/PLAN-GENERADOR-IA.md`](../../docs/PLAN-GENERADOR-IA.md)
+
 ## 📖 License
-The (MIT) License
+
+[MIT](../../LICENSE)

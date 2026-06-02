@@ -13,7 +13,7 @@ export default function FilterChips({ active, onChange }) {
           type="button"
           onClick={() => onChange(value)}
           aria-pressed={active === value}
-          className={`rounded-full px-4 py-2 text-sm font-medium transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-accent)] ${
+          className={`filter-chip rounded-full px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-accent)] ${
             active === value
               ? 'bg-[var(--color-accent)] text-white shadow-sm'
               : 'border border-[var(--color-border)] bg-[var(--color-surface-elevated)] text-[var(--color-text-muted)] hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]'

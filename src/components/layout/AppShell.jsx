@@ -13,7 +13,7 @@ function ThemeToggle() {
     <button
       type="button"
       onClick={handleToggle}
-      className="rounded-full border border-[var(--color-border)] bg-[var(--color-surface-elevated)] p-2.5 text-[var(--color-text-muted)] transition hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]"
+      className="theme-toggle shrink-0 rounded-full border border-[var(--color-border)] bg-[var(--color-surface-elevated)] p-2 text-[var(--color-text-muted)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-accent)] sm:p-2.5"
       aria-label={theme === 'dark' ? 'Activar modo claro' : 'Activar modo oscuro'}
     >
       {theme === 'dark' ? (
@@ -32,24 +32,27 @@ function ThemeToggle() {
 export default function AppShell({ children }) {
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-surface)]/90 backdrop-blur-md">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
+      <header className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-surface)]/95 backdrop-blur-md">
+        <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4">
           <a
             href="/"
-            className="flex items-center gap-2 font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-[var(--color-text)]"
+            className="group flex min-w-0 items-center gap-2 font-[family-name:var(--font-display)] text-base font-bold tracking-tight text-[var(--color-text)] sm:text-lg"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-[var(--color-accent)] text-sm text-white">
+            <span className="logo-badge flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[var(--color-accent)] text-xs text-white sm:h-9 sm:w-9 sm:text-sm">
               CSS
             </span>
-            <span>Dibujarte</span>
+            <span className="truncate transition group-hover:text-[var(--color-accent)]">Dibujarte</span>
           </a>
 
-          <nav className="flex items-center gap-1 sm:gap-2" aria-label="Principal">
+          <nav className="flex shrink-0 items-center gap-1.5 sm:gap-2" aria-label="Principal">
+            <a href="#galeria" className="nav-link hidden sm:inline-flex">
+              Galería
+            </a>
             <a
               href="https://github.com/musartedev/dibujarte-css"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg px-3 py-2 text-sm font-medium text-[var(--color-text-muted)] transition hover:bg-[var(--color-surface-elevated)] hover:text-[var(--color-text)]"
+              className="nav-action"
             >
               Contribuir
             </a>
