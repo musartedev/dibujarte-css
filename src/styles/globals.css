@@ -357,44 +357,85 @@ body {
     border-color 0.35s ease;
 }
 
-.art-card:hover {
-  transform: translateY(-6px);
-  box-shadow:
-    0 16px 40px color-mix(in srgb, var(--color-accent) 15%, transparent),
-    0 4px 12px rgba(0, 0, 0, 0.08);
-  border-color: color-mix(in srgb, var(--color-accent) 35%, var(--color-border));
+@media (hover: hover) {
+  .art-card:hover {
+    transform: translateY(-6px);
+    box-shadow:
+      0 16px 40px color-mix(in srgb, var(--color-accent) 15%, transparent),
+      0 4px 12px rgba(0, 0, 0, 0.08);
+    border-color: color-mix(in srgb, var(--color-accent) 35%, var(--color-border));
+  }
 }
 
-.art-title-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  width: fit-content;
+.card-title-link {
+  display: inline;
   text-decoration: none;
-  transition:
-    transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
-    text-shadow 0.25s ease;
+  transition: color 0.2s ease;
 }
 
-.art-title-link::after {
-  content: "↗";
-  font-size: 0.85em;
-  line-height: 1;
-  opacity: 0;
-  transform: translate(-6px, 2px) scale(0.85);
+.card-title-link:hover {
+  color: var(--color-accent);
+}
+
+.card-social-btn {
+  display: inline-flex;
+  height: 2.25rem;
+  width: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  color: var(--color-text-muted);
   transition:
-    opacity 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.card-social-btn:hover {
+  background-color: var(--color-accent-muted);
+  color: var(--color-accent);
+}
+
+.card-social-btn:active {
+  transform: scale(0.94);
+}
+
+.art-card-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, color-mix(in srgb, var(--color-accent) 12%, transparent), transparent 45%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.art-card-badge {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.25s ease,
     transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.art-title-link:hover {
-  transform: translateX(3px);
-  text-shadow: 0 0 16px rgba(255, 255, 255, 0.35);
-}
+@media (hover: hover) {
+  .art-card:hover .art-card-media img {
+    transform: scale(1.04);
+  }
 
-.art-title-link:hover::after {
-  opacity: 1;
-  transform: translate(0, 0) scale(1);
+  .art-card:hover .art-card-media::after {
+    opacity: 1;
+  }
+
+  .art-card-badge {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  .art-card:hover .art-card-badge {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .empty-state {

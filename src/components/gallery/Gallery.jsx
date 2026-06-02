@@ -14,7 +14,7 @@ export default function Gallery({ arts, filterKey }) {
     <section
       key={filterKey}
       aria-label="Obras de la galería"
-      className="gallery-stagger grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+      className="gallery-stagger grid grid-cols-1 items-stretch gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
     >
       {arts.map((art) => (
         <ArtCard key={art.id} {...art} />

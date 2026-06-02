@@ -714,6 +714,82 @@ const rawArts = [
     linkToOriginal: 'https://codepen.io/escontrerass/pen/bGYzgmo',
     tags: ['ilustración'],
   },
+  {
+    title: '🟣 Logo de Platzi',
+    author: {
+      name: 'Sebastián Sanhueza Tapia',
+      twitter: 'https://x.com/SebaSanhueTapia',
+      github: 'https://github.com/SuKuShaing',
+    },
+    imgUrl: 'https://dibujartecss.s3.us-east-2.amazonaws.com/Screenshot+2026-06-02+at+12.11.44%E2%80%AFPM.png',
+    linkToOriginal: 'https://sukushaing.github.io/dibujar-con-el-css/',
+    tags: ['flat', 'ilustración'],
+  },
+  {
+    title: '🐱 Clio',
+    author: {
+      name: 'Erik Andrés Rosero Yepez',
+      twitter: 'https://twitter.com/erikroseroyepez',
+      github: 'https://github.com/erikroseroyepez',
+    },
+    imgUrl: 'https://dibujartecss.s3.us-east-2.amazonaws.com/Screenshot+2026-06-02+at+12.12.41%E2%80%AFPM.png',
+    linkToOriginal: 'https://codepen.io/ERIK-ROSERO-YEPEZ/pen/qBvVBpY',
+    tags: ['ilustración', 'cartoon'],
+  },
+  {
+    title: '🤘 Sign of the horns',
+    author: {
+      name: 'Carlos Licto',
+      twitter: 'https://twitter.com/carlos_drk',
+      github: 'https://github.com/ironcdrk',
+    },
+    imgUrl: 'https://dibujartecss.s3.us-east-2.amazonaws.com/Screenshot+2026-06-02+at+12.13.48%E2%80%AFPM.png',
+    linkToOriginal: 'https://codepen.io/ironcdrk/pen/oNMQqde',
+    tags: ['ilustración'],
+  },
+  {
+    title: '💙 Blue — Mansión Foster',
+    author: {
+      name: 'Génesis Patiño',
+      github: 'https://github.com/genepatino',
+    },
+    imgUrl: '/previews/issue-60-blue-foster.png',
+    linkToOriginal: 'https://github.com/genepatino/drawingCss',
+    tags: ['cartoon', 'ilustración'],
+  },
+  {
+    title: '📚 Yo aprendiendo CSS',
+    author: {
+      name: 'Jean Usma',
+      twitter: 'https://twitter.com/jevale2125',
+      github: 'https://github.com/jeanusma',
+    },
+    imgUrl:
+      'https://user-images.githubusercontent.com/90712512/191810138-87b006a9-e61a-4da2-84b8-1119ef603acc.png',
+    linkToOriginal: 'https://github.com/jeanusma',
+    tags: ['ilustración', 'cartoon'],
+  },
+  {
+    title: '🍩 Homero CSS',
+    author: {
+      name: 'Damián Garcés',
+      twitter: 'https://twitter.com/guners86',
+      github: 'https://github.com/guners86',
+    },
+    imgUrl: 'https://dibujartecss.s3.us-east-2.amazonaws.com/Screenshot+2026-06-02+at+4.32.42%E2%80%AFPM.png',
+    linkToOriginal: 'https://guners86.github.io/HomeroCss/',
+    tags: ['cartoon', 'ilustración'],
+  },
+  {
+    title: '🎮 Gameboy Platzi',
+    author: {
+      name: 'Heriberto De Jesús',
+      github: 'https://github.com/HeribertoDejesus',
+    },
+    imgUrl: 'https://dibujartecss.s3.us-east-2.amazonaws.com/Screenshot+2026-06-02+at+4.30.53%E2%80%AFPM.png',
+    linkToOriginal: 'https://github.com/HeribertoDejesus/dibujo-css',
+    tags: ['ilustración', 'pixel-art'],
+  },
 ];
 
 export const arts = rawArts.map((art, index) => ({
