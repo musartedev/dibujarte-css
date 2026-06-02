@@ -748,16 +748,6 @@ const rawArts = [
     tags: ['ilustración'],
   },
   {
-    title: '💙 Blue — Mansión Foster',
-    author: {
-      name: 'Génesis Patiño',
-      github: 'https://github.com/genepatino',
-    },
-    imgUrl: '/previews/issue-60-blue-foster.png',
-    linkToOriginal: 'https://github.com/genepatino/drawingCss',
-    tags: ['cartoon', 'ilustración'],
-  },
-  {
     title: '📚 Yo aprendiendo CSS',
     author: {
       name: 'Jean Usma',
